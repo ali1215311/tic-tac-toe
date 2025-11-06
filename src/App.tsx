@@ -1,7 +1,11 @@
+import Board from "./components/Board";
+
 const App = () => {
   return (
     <>
-      <div>App</div>
+      <div className="flex justify-center items-center">
+        <Board />
+      </div>
     </>
   );
 };
