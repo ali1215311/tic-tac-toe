@@ -1,10 +1,10 @@
-import Board from "./components/Board";
+import Game from "./components/Game";
 
 const App = () => {
   return (
     <>
       <div className="flex justify-center items-center">
-        <Board />
+        <Game />
       </div>
     </>
   );
